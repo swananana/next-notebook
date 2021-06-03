@@ -9,7 +9,7 @@ const Nav = () => (
       </Link>
 
       <Link href="/notes">
-        <a sx={{color: 'text', fontSize: 3, cursor: 'pointer'}}>notes</a>
+        <a sx={{color: 'text', fontSize: 3, cursor: 'pointer'}}>Notes</a>
       </Link>
       
       <a sx={{

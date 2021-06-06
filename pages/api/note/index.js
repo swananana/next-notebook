@@ -1,8 +1,8 @@
 import nc from 'next-connect'
-import note from '../../src/data/data'
+import notes from '../../src/data/data'
 
 const handler = nc()
-.get((req, res) => {
+  .get((req, res) => {
     res.json({data: notes})
   })
   .post((req, res) => {
@@ -12,6 +12,4 @@ const handler = nc()
     notes.push(note)
     res.json({data: note})
   })
-
-
 export default handler
